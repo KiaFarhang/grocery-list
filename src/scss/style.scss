@@ -1,1 +1,19 @@
 @import 'reset';
+
+body{
+	margin: 0 auto;
+	width: 75%;
+}
+
+div.item{
+	display: flex;
+	flex-flow: row no-wrap;
+	justify-content: space-between;
+	p{
+		flex-basis: 70%;
+	}
+	button{
+		cursor: pointer;
+		flex-basis: 30%;
+	}
+}
