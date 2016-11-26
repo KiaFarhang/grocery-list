@@ -17,4 +17,4 @@ app.post('/list.json', function(req, res){
 		if (err) throw err;
 	});
 });
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
