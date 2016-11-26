@@ -1,10 +1,10 @@
 {
   "name": "grocery_list",
   "version": "0.0.1",
-  "description": "description_here",
-  "main": "app.js",
+  "description": "A simple grocery list web app built with Node",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "repository": "REPOSITORY HERE",
