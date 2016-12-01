@@ -1,10 +1,10 @@
-$blue: #0363B2;
-$red: #FF1A12;
+$gray: #a1a8b3;
+$blue: #366DAE;
 $black: #333;
 $white: #F0F0F0;
 @import 'reset';
 body {
-    background: $blue;
+    background: $gray;
     background-image: url('../orchid.png');
     background-repeat: repeat;
     color: $white;
@@ -14,9 +14,9 @@ body {
     width: 75%;
 }
 
-h1{
-	font-weight: bold;
-	font-size: 125%;
+h1 {
+    font-weight: bold;
+    font-size: 125%;
 }
 
 div.item {
@@ -30,13 +30,13 @@ div.item {
     }
     button {
         border: 1px solid $black;
-        background: $red;
+        background: $blue;
         border-radius: 50%;
         box-shadow: 0px 0px 3px $black;
         color: $black;
         cursor: pointer;
-        flex-basis: 20%;
-        height: 3em;
+        height: 3rem;
+        width: 3rem;
         padding: .5em;
     }
 }
@@ -69,10 +69,6 @@ footer {
     body {
         width: 75%;
     }
-    button {
-        flex-basis: 25%;
-        height: 4em;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -91,9 +87,6 @@ footer {
         p {
             flex-basis: 40%;
         }
-        button {
-            flex-basis: 25%;
-        }
     }
 }
 
@@ -101,11 +94,4 @@ div.label-container {
     text-align: center;
 }
 
-@media only screen and (min-width: 1024px) {
-    body {}
-    div.item {
-        button {
-            flex-basis: 15%;
-        }
-    }
-}
+@media only screen and (min-width: 1024px) {}

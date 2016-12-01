@@ -1,13 +1,13 @@
 {
   "name": "grocery_list",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple grocery list web app built with Node",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
-  "repository": "REPOSITORY HERE",
+  "repository": "https://github.com/KiaFarhang/grocery-list",
   "author": "Kia Farhang <kfarhang0@gmail.com>",
   "license": "ISC",
   "devDependencies": {
