@@ -46,9 +46,9 @@ div.label-container {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    right: 2em;
+    clear: both;
+    margin-top: 1em;
+    text-align: right;
     a {
         color: $white;
         font-weight: bold;
@@ -87,6 +87,11 @@ footer {
         p {
             flex-basis: 40%;
         }
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        right: 2em;
     }
 }
 
